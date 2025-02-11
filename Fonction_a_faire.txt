@@ -1,0 +1,12 @@
+Conection
+
+Verification_login(click) -> envoi à la page d'Acueil si mail et mot_de_passe dans table utilisateur, message d'erreur sinon
+Ajouter un compte(mail, mot_de_passe) -> + 1 utilisateur si mail non utilisé, message d'erreur sinon
+Envoie_page_création_compte(click)
+
+Acueil
+
+Changer_jour(click) -> afficher recette_id + nombre_personnes où jour.repas_semaine = jour, afficher ingredient_id + quantite_totale où jour.repas_semaine = jour
+Envoie_page_recettes(click)
+Envoie_page_modifié_repas_du_jour(click)
+Suprimer_ingrédient(click, ingredient_id)
